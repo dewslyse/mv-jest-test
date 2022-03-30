@@ -14,6 +14,10 @@ describe('String', () => {
     test('string is reversed', () => {
         expect(Func.reverseString('string')).toBe('gnirts');
     });
+
+    test('string is capitilized', () => {
+        expect(Func.capitalize('string')).toEqual('String');
+    })
 });
 
 describe('Calculator', () => {
@@ -66,3 +70,9 @@ describe('Calculator', () => {
         });
     });
 });
+
+// describe('Capitalize', () => {
+//     test('string capitilization', () => {
+//         expect(Func.capitalize('string')).toEqual('String');
+//     })
+// });

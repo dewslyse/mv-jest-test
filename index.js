@@ -22,4 +22,9 @@ class Calculate {
     mul = (a, b) => a * b;
 }
 
-module.exports = { stringLength, reverseString, Calculate };
+//Task 4
+const capitalize = (string) => {
+    return string.toLowerCase().replace(/^\w/, (s) => s.toUpperCase());
+}
+
+module.exports = { stringLength, reverseString, Calculate, capitalize };
