@@ -70,9 +70,3 @@ describe('Calculator', () => {
         });
     });
 });
-
-// describe('Capitalize', () => {
-//     test('string capitilization', () => {
-//         expect(Func.capitalize('string')).toEqual('String');
-//     })
-// });
