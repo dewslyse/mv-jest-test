@@ -9,4 +9,12 @@ const stringLength = (string) => {
     return string.length;
 }
 
-module.exports = stringLength;
+//Task 2
+const reverseString = (string) => {
+    return string.split('').reverse().join('');
+}
+
+//Task 3
+
+
+module.exports = { stringLength, reverseString };
